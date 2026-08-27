@@ -85,13 +85,6 @@ More: [`docs/linkedin-posts.md`](https://github.com/Maxofpower/FeatureFusion/blo
 
 ---
 
-## GitHub activity
-
-<img src="https://github-readme-stats.vercel.app/api?username=Maxofpower&show_icons=true&theme=default&hide_border=true" alt="GitHub stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maxofpower&layout=compact&hide_border=true&langs_count=8" alt="Top languages" height="165" />
-
----
-
 <div align="center">
 
 [LinkedIn](https://www.linkedin.com/in/mhhoseini/) · [FeatureFusion](https://github.com/Maxofpower/FeatureFusion) · [m2hweb.com](https://m2hweb.com)
