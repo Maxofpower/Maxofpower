@@ -35,7 +35,7 @@ I work on **e-commerce**, **backend platforms**, and **distributed systems**, an
 | Area | Technologies & practices |
 |------|--------------------------|
 | **Backend** | C#, ASP.NET Core, Minimal APIs, EF Core, REST, gRPC |
-| **Architecture** | CQRS, Mediator, DDD, microservices, modular monoliths |
+| **Architecture** | CQRS, Mediator, MCP tools, DDD, microservices, modular monoliths |
 | **Data & performance** | SQL Server, Redis, caching, pagination, concurrency |
 | **Messaging & integration** | RabbitMQ, outbox/inbox, API gateways, third-party integrations |
 | **Observability** | OpenTelemetry, structured logging, Aspire |
@@ -49,16 +49,19 @@ I work on **e-commerce**, **backend platforms**, and **distributed systems**, an
 
 ### [FeatureFusion](https://github.com/Maxofpower/FeatureFusion)
 
-.NET building blocks — **Mediator**, **OpenTelemetry**, **Aspire / SigNoz** — plus a runnable lab.
+.NET building blocks — **Mediator**, **MCP**, **OpenTelemetry**, **Aspire / SigNoz** — plus a runnable lab.
 
 [![.NET](https://img.shields.io/badge/.NET-8%20%7C%209%20%7C%2010-512BD4?logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![NuGet · Mediator](https://img.shields.io/nuget/v/BuildingBlocks.Mediator.svg?label=NuGet%20·%20Mediator&logo=nuget)](https://www.nuget.org/packages/BuildingBlocks.Mediator)
+[![NuGet · MCP](https://img.shields.io/nuget/v/BuildingBlocks.Mcp.svg?label=NuGet%20·%20MCP&logo=nuget)](https://www.nuget.org/packages/BuildingBlocks.Mcp)
 [![NuGet · Telemetry](https://img.shields.io/nuget/v/BuildingBlocks.Telemetry.svg?label=NuGet%20·%20Telemetry&logo=nuget)](https://www.nuget.org/packages/BuildingBlocks.Telemetry)
+[![NuGet · SigNoz](https://img.shields.io/nuget/v/BuildingBlocks.Aspire.Hosting.SigNoz.svg?label=NuGet%20·%20SigNoz&logo=nuget)](https://www.nuget.org/packages/BuildingBlocks.Aspire.Hosting.SigNoz)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Maxofpower/FeatureFusion/blob/main/LICENSE.txt)
 
 | Package | Role |
 |---------|------|
 | [BuildingBlocks.Mediator](https://www.nuget.org/packages/BuildingBlocks.Mediator) | CQRS Send + pipeline behaviors |
+| [BuildingBlocks.Mcp](https://www.nuget.org/packages/BuildingBlocks.Mcp) | Message types / Minimal APIs → MCP tools |
 | [BuildingBlocks.Telemetry](https://www.nuget.org/packages/BuildingBlocks.Telemetry) | Config-driven OpenTelemetry |
 | [BuildingBlocks.Aspire.Hosting.SigNoz](https://www.nuget.org/packages/BuildingBlocks.Aspire.Hosting.SigNoz) | Local-dev Aspire SigNoz stack |
 
