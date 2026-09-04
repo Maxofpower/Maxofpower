@@ -49,23 +49,25 @@ I work on **e-commerce**, **backend platforms**, and **distributed systems**, an
 
 ### [FeatureFusion](https://github.com/Maxofpower/FeatureFusion)
 
-.NET building blocks — **Mediator**, **MCP**, **keyset pagination**, **OpenTelemetry**, **Aspire / SigNoz** — plus a runnable lab.
+.NET building blocks — **Mediator**, **Idempotency**, **MCP**, **keyset pagination**, **OpenTelemetry**, **Aspire / SigNoz** — plus a runnable lab.
 
 [![.NET](https://img.shields.io/badge/.NET-8%20%7C%209%20%7C%2010-512BD4?logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![NuGet · Mediator](https://img.shields.io/nuget/v/BuildingBlocks.Mediator.svg?label=NuGet%20·%20Mediator&logo=nuget)](https://www.nuget.org/packages/BuildingBlocks.Mediator)
 [![NuGet · MCP](https://img.shields.io/nuget/v/BuildingBlocks.Mcp.svg?label=NuGet%20·%20MCP&logo=nuget)](https://www.nuget.org/packages/BuildingBlocks.Mcp)
+[![NuGet · Idempotency](https://img.shields.io/nuget/v/BuildingBlocks.Idempotency.svg?label=NuGet%20·%20Idempotency&logo=nuget)](https://www.nuget.org/packages/BuildingBlocks.Idempotency)
 [![NuGet · Pagination](https://img.shields.io/nuget/v/BuildingBlocks.Pagination.EntityFrameworkCore.svg?label=NuGet%20·%20Pagination&logo=nuget)](https://www.nuget.org/packages/BuildingBlocks.Pagination.EntityFrameworkCore)
 [![NuGet · Telemetry](https://img.shields.io/nuget/v/BuildingBlocks.Telemetry.svg?label=NuGet%20·%20Telemetry&logo=nuget)](https://www.nuget.org/packages/BuildingBlocks.Telemetry)
 [![NuGet · SigNoz](https://img.shields.io/nuget/v/BuildingBlocks.Aspire.Hosting.SigNoz.svg?label=NuGet%20·%20SigNoz&logo=nuget)](https://www.nuget.org/packages/BuildingBlocks.Aspire.Hosting.SigNoz)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Maxofpower/FeatureFusion/blob/main/LICENSE.txt)
 
-| Package | Role |
-|---------|------|
-| [BuildingBlocks.Mediator](https://www.nuget.org/packages/BuildingBlocks.Mediator) | CQRS Send + pipeline behaviors |
-| [BuildingBlocks.Mcp](https://www.nuget.org/packages/BuildingBlocks.Mcp) | Message types / Minimal APIs → MCP tools |
-| [BuildingBlocks.Pagination.EntityFrameworkCore](https://www.nuget.org/packages/BuildingBlocks.Pagination.EntityFrameworkCore) | Typed keyset (cursor) pagination for EF Core |
-| [BuildingBlocks.Telemetry](https://www.nuget.org/packages/BuildingBlocks.Telemetry) | Config-driven OpenTelemetry |
-| [BuildingBlocks.Aspire.Hosting.SigNoz](https://www.nuget.org/packages/BuildingBlocks.Aspire.Hosting.SigNoz) | Local-dev Aspire SigNoz stack |
+| Package | Version | Role |
+|---------|---------|------|
+| [BuildingBlocks.Mediator](https://www.nuget.org/packages/BuildingBlocks.Mediator) | **1.1.0** | CQRS Send + ordered pipeline (typed behaviors, opt-in traces/metrics) |
+| [BuildingBlocks.Mcp](https://www.nuget.org/packages/BuildingBlocks.Mcp) | **1.0.0** | Message types / Minimal APIs → MCP tools |
+| [BuildingBlocks.Idempotency](https://www.nuget.org/packages/BuildingBlocks.Idempotency) | **1.0.1** | HTTP Idempotency-Key — MVC + Minimal API, optional Redis lock |
+| [BuildingBlocks.Pagination.EntityFrameworkCore](https://www.nuget.org/packages/BuildingBlocks.Pagination.EntityFrameworkCore) | **1.1.0** | Typed keyset (cursor) pagination for EF Core |
+| [BuildingBlocks.Telemetry](https://www.nuget.org/packages/BuildingBlocks.Telemetry) | **1.0.2** | Config-driven OpenTelemetry |
+| [BuildingBlocks.Aspire.Hosting.SigNoz](https://www.nuget.org/packages/BuildingBlocks.Aspire.Hosting.SigNoz) | **1.0.0** | Local-dev Aspire SigNoz stack |
 
 Also: [DbContextThreadSafetyAnalyzer](https://github.com/Maxofpower/DbContextThreadSafetyAnalyzer) — Roslyn analyzer for async `DbContext` usage.
 
