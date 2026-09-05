@@ -34,14 +34,14 @@ I work on **e-commerce**, **backend platforms**, and **distributed systems**, an
 
 | Area | Technologies & practices |
 |------|--------------------------|
-| **Backend** | C#, ASP.NET Core, Minimal APIs, EF Core, REST, gRPC |
-| **Architecture** | CQRS, Mediator, MCP tools, DDD, microservices, modular monoliths |
-| **Data & performance** | SQL Server, Redis, caching, pagination, concurrency |
-| **Messaging & integration** | RabbitMQ, outbox/inbox, API gateways, third-party integrations |
-| **Observability** | OpenTelemetry, structured logging, Aspire |
-| **Commerce** | nopCommerce (certified), plugins, headless/API-first storefronts |
-| **DevOps** | Docker, GitLab CI/CD, GitHub Actions |
-| **Quality** | Unit & integration testing, analyzers, code review |
+| **Backend** | C#, ASP.NET Core, Minimal APIs, EF Core, REST, gRPC, idempotent APIs |
+| **Architecture** | CQRS, Mediator, MCP tools, DDD, event-driven design, microservices, modular monoliths |
+| **Data & performance** | SQL Server, PostgreSQL, Redis, caching strategies, keyset (cursor) pagination, concurrency & indexing |
+| **Messaging & integration** | RabbitMQ, outbox/inbox, DLQ, YARP API gateways, rate limiting, third-party integrations |
+| **Observability** | OpenTelemetry (traces, metrics, logs), structured logging, Aspire, SigNoz |
+| **Commerce** | Catalog, pricing & inventory, checkout & order lifecycle, payments & shipping, plugin architecture, headless/API-first storefronts |
+| **DevOps** | Docker, GitLab CI/CD, GitHub Actions, NuGet packaging |
+| **Quality** | Unit & integration testing, Aspire-hosted tests, Roslyn analyzers, code review |
 
 ---
 
